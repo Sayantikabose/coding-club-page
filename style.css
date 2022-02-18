@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-stretch: extra-expanded;
+}
+
+.navbar-brand {
+    padding-right: 20%;
+}
+
+.signup {
+    color: blue;
+}
+
+.container {
+    background-color: rgba(249, 249, 255, 0.925);
+}
+
+.navbar-nav {
+    padding-left: 5%;
+    padding-right: 10%;
+    color: black;
+}
+
+.head {
+    padding-top: 40px;
+}
+
+.head h4 {
+    color: #00B4D8;
+}
+
+.head h1 {
+    color: #270082;
+}
+
+.head p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-img {
+    padding-top: 40px;
+}
+
+#features h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.feature-box {
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-right: auto;
+}
+
+.feature-box h3 {
+    font-weight: bold;
+    font-size: 1.23rem;
+}
+
+.feature-box h3:hover {
+    border-bottom: 4px dashed #04356e;
+    letter-spacing: 0.1rem;
+}
+
+.feature-box p:hover {
+    font-style: italic;
+}
+
+.testimonials {
+    text-align: center;
+    background-color: rgba(212, 212, 221, 0.959);
+    color: rgb(0, 0, 0);
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 50%;
+    border-radius: 60%;
+    margin: 20px;
+}
+
+.testimonials h3 {
+    padding-top: 10px;
+}
+
+.line {
+    background: rgb(0, 2, 128);
+    height: 3px;
+    border-radius: 4px;
+    width: 0%;
+    position: fixed;
+    top: 0;
+}
+
+.heading span {
+    color: #04356e;
+}
+
+.events span {
+    color: #04356e;
+}
+
+.events {
+    text-align: center;
+}
+
+.events h3 {
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.card {
+    text-align: center;
+    background-color: rgba(249, 249, 255, 0.925);
+}
+
+.card:hover {
+    background-color: #04356e;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(41, 38, 38);
+    color: white;
+}
+
+.footer .row {
+    padding: 2%;
+}
+
+.footer .fa-brands {
+    padding: 1%;
+}
+
+.reserved {
+    text-align: center;
+}
+
+.upevents {
+    margin-bottom: auto;
+}
+
+.btn {
+    /* margin-top: 1rem; */
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #29d9d5;
+    border: 0.2rem solid #1343e0;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover {
+    background: #1343e0;
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: blue;
+}
+
+.home {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 90%;
+    border-radius: 1rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(images/coding.jpg) no-repeat;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(images/coding.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 80vh;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content span {
+    margin-top: 1%;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.content h3 {
+    font-size: 3rem;
+}
+
+.content p {
+    max-width: 60rem;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+.content .btn {
+    color: #f8f8f8;
+    border: 0.2rem solid #13e0b4;
+}
+
+.content .btn:hover {
+    background-color: #13e0b4;
+}
+
+.content2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content2 h3 {
+    font-size: 2rem;
+}
+
+.content2 h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding-left: 2rem;
+}
+
+.content2 p {
+    max-width: 60rem;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+.content2 .btn {
+    color: #000000;
+    border: 0.2rem solid #13e0b4;
+}
+
+.content2 .btn:hover {
+    background-color: #13e0b4;
+}
+
+.about .video-container {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.services {
+    text-align: center;
+    margin: auto;
+}
+
+.services .head span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-stretch: expanded;
+    color: #04356e;
+    margin-bottom: 20px;
+}
+
+.services .box-container .card {
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(97, 186, 255, 1) 0%, rgba(166, 239, 253, 1) 90.1%);
+}
+
+.banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/banner-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(images/download.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 2rem;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.banner .content span {
+    font-size: 2rem;
+    color: #29d9d5;
+}
+
+.banner .content h3 {
+    font-size: 4rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.banner .content p {
+    max-width: 60rem;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+.footer {
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+}
+
+.footer .row {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.footer .row i {
+    padding: 10px;
+}
+
+.footer .credits {
+    text-align: center;
+}
